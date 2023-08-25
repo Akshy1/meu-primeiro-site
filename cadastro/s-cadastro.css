@@ -1,0 +1,16 @@
+#main-cadastro-container{display: block; text-align: center; margin: 100px 0 10px 0;}
+#main-cadastro{ display: flex; background: #43484e; width: 500px; height: 250px; align-items: center; margin-top: 10px; justify-content: center; margin-left: 50%; transform: translateX(-50%); border-radius: 6px;}
+#main-cadastro-info div{width: 200px; display: block; padding: 10px;}
+#main-cadastro-info div input{width: 200px; height: 22px; display: block; background: #abacad; color: #000000; font-weight: 600;}
+#main-cadastro label{color: #fff;}
+#submit{background: #a5a9ad; width: 100px; height: 35px; margin: 10px; font-size: 16px; font-weight: 700; color: #242627; cursor: pointer;}
+#name, #email, #pass{color: #000;}
+
+#main-img-db{display: flex; justify-content: center;}
+#main-img-db img{width: 300px; margin-top: 50px;}
+
+footer{position: relative;}
+
+@media (max-width: 600px) {
+    #main-cadastro{width: 70%;}
+}

@@ -1,0 +1,9 @@
+#header-id{color: #8d9196;}
+#main-info-container{display: flex; background: #43484e; width: 500px; height: 100px; align-items: center; margin-top: 10px; justify-content: left; margin-left: 50%; transform: translateX(-50%); border-radius: 6px;}
+#main-info{margin: 10px;}
+#main-info p{font-weight: 700;}
+#main-sair{width: 100px; margin: 20px 0 0 50%; transform: translateX(-50%); text-align: center;}
+#main-sair a{color: #be4958; font-weight: 900; font-size: 17px;}
+@media (max-width: 600px) {
+    #main-info-container{width: 90%;}
+}
